@@ -46,7 +46,8 @@ const config = {
           // Décommenter une fois le dépôt en ligne : ajoute un lien
           // « Modifier cette page » sur chaque page, utile quand un binôme
           // repère une erreur en séance.
-          // editUrl: 'https://github.com/<compte>/<depot>/tree/main/docs-s9/',
+          editUrl:
+            "https://github.com/activiteOCR/iot-s9-isen/tree/main/docs-s9/",
         },
         blog: false,
         theme: {
