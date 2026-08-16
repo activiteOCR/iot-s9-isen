@@ -42,8 +42,8 @@ contextuel de l'icône Docker.
 ## 3. Récupérer le dépôt et les images
 
 ```bash
-git clone <URL_DU_DEPOT> iot-s9
-cd iot-s9/laptop
+git clone https://github.com/activiteOCR/iot-s9-isen.git
+cd iot-s9-isen/ilot-s9/ilot-s9-laptop
 docker compose pull
 ```
 
@@ -51,9 +51,11 @@ C'est le point le plus important de cette page. Environ un gigaoctet à
 télécharger, quelques minutes chez vous, beaucoup plus en salle.
 
 :::tip[Vérification]
+
 ```bash
 docker images
 ```
+
 Quatre images doivent apparaître : `eclipse-mosquitto`, `influxdb`,
 `telegraf` et `grafana/grafana`.
 :::
