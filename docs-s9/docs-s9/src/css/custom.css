@@ -1,0 +1,113 @@
+/* ---------------------------------------------------------------------------
+   IoT S9 — support de TP
+
+   Palette empruntee au vocabulaire du sujet : bleu petrole des armoires
+   d'automatisme, ambre des voyants d'alerte, vert franc reserve aux seules
+   verifications qui passent. Le vert n'apparait nulle part ailleurs : quand
+   un etudiant en voit, c'est qu'il a valide quelque chose.
+
+   Typographie IBM Plex : dessinee pour la documentation technique et les
+   interfaces de supervision. Plex Mono pour tout ce qui se tape.
+--------------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --ifm-color-primary: #12566b;
+  --ifm-color-primary-dark: #104d60;
+  --ifm-color-primary-darker: #0f495a;
+  --ifm-color-primary-darkest: #0c3c4a;
+  --ifm-color-primary-light: #145f76;
+  --ifm-color-primary-lighter: #15637c;
+  --ifm-color-primary-lightest: #1a7794;
+
+  --ifm-color-success: #1a7f4b;
+  --ifm-color-warning: #c77b0e;
+  --ifm-color-danger: #a8322a;
+
+  --ifm-font-family-base: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-monospace: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --ifm-code-font-size: 88%;
+  --ifm-heading-font-weight: 600;
+  --ifm-h1-font-size: 2.1rem;
+  --ifm-line-height-base: 1.65;
+
+  --ifm-navbar-shadow: 0 1px 0 rgba(18, 86, 107, 0.15);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #5fb3ca;
+  --ifm-color-primary-dark: #47a7c1;
+  --ifm-color-primary-darker: #3ba0bc;
+  --ifm-color-primary-darkest: #30849b;
+  --ifm-color-primary-light: #77bfd3;
+  --ifm-color-primary-lighter: #83c5d8;
+  --ifm-color-primary-lightest: #a5d5e3;
+}
+
+/* --- Titres de page : numero de chantier en exergue ---------------------- */
+.markdown h1 {
+  letter-spacing: -0.02em;
+}
+
+.markdown h2 {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding-top: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+/* --- Blocs de code : les commandes sont le coeur du support -------------- */
+.theme-code-block {
+  box-shadow: none !important;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+code {
+  border: none;
+  background: var(--ifm-color-emphasis-100);
+}
+
+/* --- Encarts ------------------------------------------------------------- */
+.theme-admonition {
+  border-left-width: 3px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* La verification de fin de chantier. Seul endroit vert du support. */
+.theme-admonition-tip {
+  border-left-color: var(--ifm-color-success);
+}
+
+/* --- Tableaux : plans d'adressage, correspondances de topics ------------- */
+.markdown table {
+  display: table;
+  width: 100%;
+  font-size: 0.92rem;
+}
+
+.markdown table th {
+  background: var(--ifm-color-emphasis-100);
+  font-weight: 600;
+}
+
+/* --- Sortie de verificateur : rendu terminal ----------------------------- */
+.markdown pre code.language-text {
+  font-size: 0.85rem;
+}
+
+/* --- Accessibilite ------------------------------------------------------- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--ifm-color-warning);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

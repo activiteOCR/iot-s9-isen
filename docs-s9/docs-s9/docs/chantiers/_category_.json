@@ -1,0 +1,9 @@
+{
+  "label": "Chantiers",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Les chantiers",
+    "description": "Six chantiers, du montage de l'infrastructure à la gestion d'incident. Chacun se termine par une vérification qui doit passer au vert avant d'attaquer le suivant."
+  }
+}

@@ -1,0 +1,15 @@
+apiVersion: 1
+
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    access: proxy
+    url: http://influxdb:8086
+    isDefault: true
+    jsonData:
+      version: Flux
+      organization: ecole
+      defaultBucket: iot
+      tlsSkipVerify: true
+    secureJsonData:
+      token: iot-s9-token-a-changer
