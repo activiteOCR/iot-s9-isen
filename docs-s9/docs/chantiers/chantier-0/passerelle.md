@@ -22,7 +22,7 @@ gardez-la intacte.
 ## Se connecter
 
 ```bash
-ssh isen-iot@10.10.3.1
+ssh isen-iot@10.10.<N>.1
 ```
 
 ## Les questions auxquelles répondre

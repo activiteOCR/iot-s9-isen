@@ -7,7 +7,7 @@ sidebar_position: 2
 # À faire chez vous
 
 Quatre points, une trentaine de minutes, **avec une connexion Internet
-correcte**. La salle est desservie par un routeur 4G partagé entre cinq
+correcte**. La salle est desservie par un accès WiFi partagé entre cinq
 groupes : ce qui se télécharge tranquillement chez vous devient une demi-séance
 perdue en TP.
 

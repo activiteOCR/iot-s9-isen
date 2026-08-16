@@ -52,10 +52,10 @@ Ne vous en inquiétez qu'au-delà d'une minute.
 
 ## Accéder aux interfaces
 
-| Service | Adresse | Identifiants |
-|---|---|---|
-| Grafana | http://localhost:3000 | `admin` / voir l'énoncé |
-| InfluxDB | http://localhost:8086 | `admin` / voir l'énoncé |
+| Service  | Adresse               | Identifiants           |
+| -------- | --------------------- | ---------------------- |
+| Grafana  | http://localhost:3000 | `admin` / iot-s9       |
+| InfluxDB | http://localhost:8086 | `admin` / iot-s9-admin |
 
 Ouvrez Grafana et vérifiez que la source de données InfluxDB est déclarée :
 menu **Connections → Data sources**. Elle est provisionnée automatiquement au
@@ -90,7 +90,7 @@ Si rien n'apparaît : voir
 :::
 
 Gardez cet abonnement ouvert dans un terminal pendant toute la suite du
-chantier — il vous servira de témoin permanent.
+chantier, il vous servira de témoin permanent.
 
 :::info[Objectif bonus]
 Ce même message apparaît sous deux formes différentes. Trouvez-les et expliquez
