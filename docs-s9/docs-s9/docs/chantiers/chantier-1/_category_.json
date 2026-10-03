@@ -1,0 +1,8 @@
+{
+  "label": "Chantier 1 — Mettre un device en service",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "chantiers/chantier-1/objectifs"
+  }
+}

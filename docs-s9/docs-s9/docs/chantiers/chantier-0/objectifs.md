@@ -12,7 +12,7 @@ vous savez décrire ce qui tourne dessus.
 ## Ce que vous allez faire
 
 Relier votre laptop à la passerelle, monter la chaîne de supervision, puis
-**enquêter** sur la passerelle pour comprendre ce qu'elle fait sans jamais
+**enquêter** sur la passerelle pour comprendre ce qu'elle fait — sans jamais
 la modifier.
 
 Cette dernière partie est le cœur du chantier. On vous livre une machine
@@ -28,11 +28,11 @@ normale en exploitation, et savoir la cartographier est une compétence en soi.
 
 ## Livrables
 
-| Livrable                            | Forme                           | Quand         |
-| ----------------------------------- | ------------------------------- | ------------- |
+| Livrable | Forme | Quand |
+|---|---|---|
 | Schéma d'architecture de votre îlot | 1 page, à la main ou en Mermaid | fin de séance |
-| Sortie du vérificateur, horodatée   | capture ou copie                | fin de séance |
-| Réponse à la question du bridge     | 5 lignes                        | fin de séance |
+| Sortie du vérificateur, horodatée | capture ou copie | fin de séance |
+| Réponse à la question du bridge | 5 lignes | fin de séance |
 
 Le schéma doit faire apparaître les interfaces réseau, les adresses, les
 services et les ports. Pas les logos.

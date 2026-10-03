@@ -50,13 +50,13 @@ Partout dans ces pages, **`N` désigne le numéro de votre îlot**. Si vous ête
 sur l'îlot 3, `192.168.N0.1` se lit `192.168.30.1`, et `10.10.N.2` se lit
 `10.10.3.2`.
 
-| Îlot | SSID     | Réseau des devices | Passerelle | Votre laptop |
-| ---- | -------- | ------------------ | ---------- | ------------ |
-| 1    | `ilot-1` | 192.168.10.0/24    | 10.10.1.1  | 10.10.1.2    |
-| 2    | `ilot-2` | 192.168.20.0/24    | 10.10.2.1  | 10.10.2.2    |
-| 3    | `ilot-3` | 192.168.30.0/24    | 10.10.3.1  | 10.10.3.2    |
-| 4    | `ilot-4` | 192.168.40.0/24    | 10.10.4.1  | 10.10.4.2    |
-| 5    | `ilot-5` | 192.168.50.0/24    | 10.10.5.1  | 10.10.5.2    |
+| Îlot | SSID | Réseau des devices | Passerelle | Votre laptop |
+|---|---|---|---|---|
+| 1 | `ilot-1` | 192.168.10.0/24 | 10.10.1.1 | 10.10.1.2 |
+| 2 | `ilot-2` | 192.168.20.0/24 | 10.10.2.1 | 10.10.2.2 |
+| 3 | `ilot-3` | 192.168.30.0/24 | 10.10.3.1 | 10.10.3.2 |
+| 4 | `ilot-4` | 192.168.40.0/24 | 10.10.4.1 | 10.10.4.2 |
+| 5 | `ilot-5` | 192.168.50.0/24 | 10.10.5.1 | 10.10.5.2 |
 
 Chaque chantier se termine par un encart **Vérification** : une commande qui
 répond vert ou rouge. Tant qu'elle n'est pas au vert, le chantier n'est pas

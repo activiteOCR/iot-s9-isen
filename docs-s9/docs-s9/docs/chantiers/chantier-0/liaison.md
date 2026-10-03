@@ -50,7 +50,7 @@ Puis, en PowerShell **administrateur** :
 ```powershell
 $if = "Ethernet"   # remplacer par le Name exact
 
-New-NetIPAddress -InterfaceAlias $if -IPAddress 10.10.<N>.2 -PrefixLength 24
+New-NetIPAddress -InterfaceAlias $if -IPAddress 10.10.3.2 -PrefixLength 24
 Set-NetConnectionProfile -InterfaceAlias $if -NetworkCategory Private
 New-NetFirewallRule -DisplayName "MQTT ilot" -Direction Inbound `
     -Protocol TCP -LocalPort 1883 -Action Allow -Profile Private,Public
@@ -103,7 +103,7 @@ part, et vous perdrez l'accès au réseau de l'école.
 ## Contrôler
 
 ```bash
-ping 10.10.<N>.1
+ping 10.10.3.1
 ```
 
 :::tip[Vérification]
